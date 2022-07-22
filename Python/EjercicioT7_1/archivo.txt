@@ -1,0 +1,3 @@
+Hola, me llamo antoni
+estoy desde un archivo.txt
+siuuuuu mas facil que c++ y c
