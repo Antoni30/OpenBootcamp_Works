@@ -1,0 +1,29 @@
+{% extends 'layoud.html' %}
+{% block content %}
+
+<form action="admin">
+    <table class="table  table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Pelicula</th>
+            <th scope="col">Decripcion</th>
+          </tr>
+        </thead>
+        <tbody>
+            {% for d in object_list %}
+                <tr>
+                    <td scope="row">{{d.id}}</td>
+                    <td> {{d.nombre}} </td>
+                    <td>{{d.apellido}}</td>
+                    <td>{{d.pelicula}} </td>
+                    <td>{{d.pelicula.descipcion}} </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+      </table>
+      <button type="submit" class="btn btn-dark">Agregar una pelicula</button>
+</form>
+{% endblock content %}
