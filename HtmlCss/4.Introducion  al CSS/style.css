@@ -1,0 +1,25 @@
+*{
+    font-family:Victor Mono, Courier, monospace;
+}
+#elemento-1{
+    color: red;
+}
+section ul #elemento-1{
+    font-size: 2rem;
+}
+section{
+    width: 30%;
+    border: 2px solid rgb(189, 165, 165);
+    border-radius: 10%;
+    margin: auto;
+    margin-top: 13%;
+}
+#titulo{
+    font-size: 32px;
+}
+.encabezado{
+    background-color: rgb(190, 226, 226);
+}
+h1{
+    text-align: center;
+}
