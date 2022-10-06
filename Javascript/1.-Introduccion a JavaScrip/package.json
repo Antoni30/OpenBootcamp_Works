@@ -1,0 +1,16 @@
+{
+  "name": "ejerccio_1",
+  "version": "1.0.0",
+  "description": "Este es un trabajo de JS con node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+
+  },
+  "keywords": [
+    "first_proyect"
+  ],
+  "author": "antoni",
+  "license": "ISC"
+}
